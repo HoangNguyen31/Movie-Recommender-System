@@ -27,7 +27,25 @@
 - Phân tích dữ liệu đa biến.
 
 ## Giai đoạn 4: Xây dựng hệ thống gợi ý phim
-- Gợi ý phim dựa trên đánh giá trung bình: Ta sẽ sử dụng weighted rating (điểm đánh giá có trọng số) được tính như sau:
-    $$\text{Weighted Rating: }wr = \left(\dfrac{v}{v+m}\times R\right) + \left(\dfrac{m}{v+m}\times C\right)$$
-- Gợi ý phim dựa trên mức độ tương đồng với tìm kiếm: Sử dụng trích xuất đặc trưng sử dụng `TF - IDF`.
-![](https://drive.google.com/uc?export=view&id=1GJff8U0BBlL9MKYKfnVM8llpdzLViTPm)
+- Gợi ý phim dựa trên đánh giá trung bình: Ta sẽ sử dụng weighted rating (điểm đánh giá có trọng số):
+  - Gợi ý phim hay nhất mọi thời đại:
+  
+  ![](https://drive.google.com/uc?export=view&id=1M-oKO6Xd0YKK6sJ2_-fOyrhRfBBguRPq)
+  
+  - Gợi ý phim hay nhất trong năm 2019:
+  
+  ![](https://drive.google.com/uc?export=view&id=1NHye7NJvY5wqecz4T8ChZm_Tqh_Py096)
+  
+  - Gợi ý phim hay nhất mọi thời đại của đất nước Thái Lan:
+  
+  ![](https://drive.google.com/uc?export=view&id=1kxot0me71_oOSa2WM4QsCt8rcl8RBwO4)
+  
+- Gợi ý phim dựa trên mức độ tương đồng với tìm kiếm: Sử dụng trích xuất đặc trưng sử dụng `TF - IDF`:
+  - Phim tìm kiếm:
+    
+  ![](https://drive.google.com/uc?export=view&id=1lN53KU5EsYrc7E1qAKO3VQTQOCcNLr5_)
+  
+  - Những phim gợi ý:
+    
+  ![](https://drive.google.com/uc?export=view&id=1EEmRguhqZ08_10Y9Ho6WW1jywXWZoGMx)
+  
