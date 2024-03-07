@@ -30,3 +30,4 @@
 - Gợi ý phim dựa trên đánh giá trung bình: Ta sẽ sử dụng weighted rating (điểm đánh giá có trọng số) được tính như sau:
     $$\text{Weighted Rating: }wr = \left(\dfrac{v}{v+m}\times R\right) + \left(\dfrac{m}{v+m}\times C\right)$$
 - Gợi ý phim dựa trên mức độ tương đồng với tìm kiếm: Sử dụng trích xuất đặc trưng sử dụng `TF - IDF`.
+![](https://drive.google.com/uc?export=view&id=1GJff8U0BBlL9MKYKfnVM8llpdzLViTPm)
